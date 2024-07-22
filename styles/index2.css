@@ -1,0 +1,53 @@
+:root{
+    --color-pink: #E79796;
+    --color-white: #F5F5F5;
+    --color-yellow: #FAF5E6;
+    --background-pink: #FEE9E5;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-yellow);
+    font-family: "CormorantInfant", serif;
+}
+.contacts{
+    box-sizing: border-box;
+    min-height: 500px;
+    height: 50vh;
+    margin: 25vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts-header{
+    font-size: 60px;
+    margin-top:0;
+    text-align: center;
+    color: var(--color-pink);
+}
+.contacts-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts-logo{
+    display: block;
+    margin: auto;
+    scale: 2;
+}
+.contact-block{
+
+}
+.contacts-subheader{
+    color: var(--color-pink);
+    text-align: center;
+}
+.contact-map{
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: 35px;
+}
+.contacts-wrapper:first-child,
+.contacts-wrapper:nth-child(2){
+    margin-bottom:30px
+}
